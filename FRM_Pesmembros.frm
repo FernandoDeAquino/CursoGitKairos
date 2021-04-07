@@ -86,7 +86,7 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
 Dim Rd As New ADODB.Recordset
-
+' Mensagem para alteração no git
 Private Sub Command1_Click()
 
 Grid.Col = 0
@@ -102,9 +102,9 @@ Private Sub Form_Load()
 'Dim Rd As New ADODB.Recordset
     Me.Grid.Row = 0
            Me.Grid.Col = 0
-            Me.Grid = "Matricula"
+            Me.Grid = "Matriculas"
             Me.Grid.Col = 1
-            Me.Grid = "Nome"
+            Me.Grid = "Nomes"
             Me.Grid.Col = 2
             Me.Grid = "Status"
 
