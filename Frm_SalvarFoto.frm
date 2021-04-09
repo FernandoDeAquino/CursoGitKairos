@@ -82,9 +82,9 @@ If Len(Arquivo) <= 0 Then Exit Sub
  If Dir(App.Path & "\img", vbDirectory) = "" Then MkDir (App.Path & "\img")
 
     If Dir(App.Path & "\img\" & oMembros.Matricula & ".jpg", vbNormal) <> "" Then
-        Msg = "Atenção!" & Chr(13) & "O arquivo abaixo já existe: " & Chr(13) & Msg & Chr(13) & "Deseja substituí-lo ?" ' Define message.
+        Msg = "Atenï¿½ï¿½o!" & Chr(13) & "O arquivo abaixo jï¿½ existe: " & Chr(13) & Msg & Chr(13) & "Deseja substituï¿½-lo ?" ' Define message.
         Style = vbYesNo + vbCritical + vbDefaultButton2   ' Define buttons.
-        Title = "Sobrescrevendo arquivo de dados."   ' Define title.
+        Title = "Sobrescrevendo arquivos na base de dados."   ' Define title.
 
         Response = MsgBox(Msg, Style, Title, Help, Ctxt)
         If Response = 7 Then Exit Sub
